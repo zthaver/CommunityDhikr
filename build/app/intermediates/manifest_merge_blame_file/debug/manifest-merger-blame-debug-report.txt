@@ -1,0 +1,697 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.pocketprayer2"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\debug\AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->[:social_share] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\social_share\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-81
+15-->[:social_share] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\social_share\intermediates\library_manifest\debug\AndroidManifest.xml:17:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->[:social_share] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\social_share\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-80
+16-->[:social_share] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\social_share\intermediates\library_manifest\debug\AndroidManifest.xml:18:22-77
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:24:5-79
+17-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:24:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:25:5-68
+18-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:25:22-65
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:27:5-81
+19-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:27:22-78
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+20-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:28:5-77
+20-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:28:22-74
+21    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+21-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\416008adaf683bef1da41f72b032ca71\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+21-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\416008adaf683bef1da41f72b032ca71\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+22    <!--
+23 io.flutter.app.FlutterApplication is an android.app.Application that
+24         calls FlutterMain.startInitialization(this); in its onCreate method.
+25         In most cases you can leave this as-is, but you if you want to provide
+26         additional functionality it is fine to subclass or reimplement
+27         FlutterApplication and put your custom class here.
+28    -->
+29    <application
+29-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:8:5-64:19
+30        android:name="io.flutter.app.FlutterApplication"
+30-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:9:9-57
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.3.2] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\28956d021785df16533adad0617ec120\core-1.3.2\AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:11:9-43
+34        android:label="pocketprayer2"
+34-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:10:9-38
+35        android:supportsRtl="true" >
+35-->[com.facebook.android:facebook-share:5.15.3] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\95b48a94106aa4e50d1eb762b628bb3d\jetified-facebook-share-5.15.3\AndroidManifest.xml:28:18-44
+36        <activity
+36-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:12:9-57:20
+37            android:name="com.example.pocketprayer2.MainActivity"
+37-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:13:13-41
+38            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+38-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:16:13-163
+39            android:hardwareAccelerated="true"
+39-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:17:13-47
+40            android:launchMode="singleTop"
+40-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:14:13-43
+41            android:theme="@style/LaunchTheme"
+41-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:15:13-47
+42            android:windowSoftInputMode="adjustResize" >
+42-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:18:13-55
+43
+44            <!--
+45                 Specifies an Android theme to apply to this Activity as soon as
+46                 the Android process has started. This theme is visible to the user
+47                 while the Flutter UI initializes. After that, this theme continues
+48                 to determine the Window background behind the Flutter UI.
+49            -->
+50            <meta-data
+50-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:23:13-26:17
+51                android:name="io.flutter.embedding.android.NormalTheme"
+51-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:24:15-70
+52                android:resource="@style/NormalTheme" />
+52-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:25:15-52
+53            <!--
+54                 Displays an Android View that continues showing the launch screen
+55                 Drawable until Flutter paints its first frame, then this splash
+56                 screen fades out. A splash screen is useful to avoid any visual
+57                 gap between the end of Android's launch screen and the painting of
+58                 Flutter's first frame.
+59            -->
+60            <meta-data
+60-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:32:13-35:17
+61                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+61-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:33:15-79
+62                android:resource="@drawable/launch_background" />
+62-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:34:15-61
+63
+64            <intent-filter>
+64-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:36:13-39:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:37:17-68
+65-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:37:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:38:17-76
+67-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:38:27-74
+68            </intent-filter>
+69            <intent-filter>
+69-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:40:13-47:29
+70                <action android:name="android.intent.action.VIEW" />
+70-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:41:17-69
+70-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:41:25-66
+71
+72                <category android:name="android.intent.category.DEFAULT" />
+72-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:42:17-76
+72-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:42:27-73
+73                <category android:name="android.intent.category.BROWSABLE" />
+73-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:43:17-78
+73-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:43:27-75
+74
+75                <data
+75-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:44:17-46:50
+76                    android:host="example.com"
+76-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:46:21-47
+77                    android:scheme="unilinks" />
+77-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:45:21-46
+78            </intent-filter>
+79            <intent-filter>
+79-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:48:13-56:29
+80                <action android:name="android.intent.action.VIEW" />
+80-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:41:17-69
+80-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:41:25-66
+81
+82                <category android:name="android.intent.category.DEFAULT" />
+82-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:42:17-76
+82-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:42:27-73
+83                <category android:name="android.intent.category.BROWSABLE" />
+83-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:43:17-78
+83-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:43:27-75
+84
+85                <data
+85-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:44:17-46:50
+86                    android:host="host"
+86-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:46:21-47
+87                    android:pathPrefix="/path/subpath"
+88                    android:scheme="unilinks" />
+88-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:45:21-46
+89            </intent-filter>
+90        </activity>
+91
+92        <!--
+93             Don't delete the meta-data below.
+94             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+95        -->
+96        <meta-data
+96-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:61:9-63:33
+97            android:name="flutterEmbedding"
+97-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:62:13-44
+98            android:value="2" />
+98-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:63:13-30
+99
+100        <service
+100-->[:cloud_firestore] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+101            android:name="com.google.firebase.components.ComponentDiscoveryService"
+101-->[:cloud_firestore] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+102            android:directBootAware="true"
+102-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\9b8d9e08d5c5504b0e15bdfae6b309ce\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+103            android:exported="false" >
+103-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:76:13-37
+104            <meta-data
+104-->[:cloud_firestore] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+105                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+105-->[:cloud_firestore] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[:cloud_firestore] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+107            <meta-data
+107-->[:firebase_auth] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+108                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+108-->[:firebase_auth] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[:firebase_auth] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+110            <meta-data
+110-->[:firebase_dynamic_links] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\firebase_dynamic_links\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-13:85
+111                android:name="com.google.firebase.components:io.flutter.plugins.firebasedynamiclinks.FlutterFirebaseAppRegistrar"
+111-->[:firebase_dynamic_links] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\firebase_dynamic_links\intermediates\library_manifest\debug\AndroidManifest.xml:12:17-130
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[:firebase_dynamic_links] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\firebase_dynamic_links\intermediates\library_manifest\debug\AndroidManifest.xml:13:17-82
+113            <meta-data
+113-->[:firebase_core] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+114                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+114-->[:firebase_core] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[:firebase_core] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:77:13-79:85
+117                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+117-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:78:17-109
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:79:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-firestore:22.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\d0c2e3667bad5e8397f7280741a6ac1f\jetified-firebase-firestore-22.0.1\AndroidManifest.xml:20:13-22:85
+120                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+120-->[com.google.firebase:firebase-firestore:22.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\d0c2e3667bad5e8397f7280741a6ac1f\jetified-firebase-firestore-22.0.1\AndroidManifest.xml:21:17-111
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-firestore:22.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\d0c2e3667bad5e8397f7280741a6ac1f\jetified-firebase-firestore-22.0.1\AndroidManifest.xml:22:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-dynamic-links:19.1.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\bf27ae56bc35ea936f29a40cf170c21e\firebase-dynamic-links-19.1.1\AndroidManifest.xml:11:13-13:85
+123                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+123-->[com.google.firebase:firebase-dynamic-links:19.1.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\bf27ae56bc35ea936f29a40cf170c21e\firebase-dynamic-links-19.1.1\AndroidManifest.xml:12:17-133
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-dynamic-links:19.1.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\bf27ae56bc35ea936f29a40cf170c21e\firebase-dynamic-links-19.1.1\AndroidManifest.xml:13:17-82
+125            <!--
+126                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+127                clients to use it as well, by defining this registrar in their own core/common library.
+128            -->
+129            <meta-data
+129-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\9b8d9e08d5c5504b0e15bdfae6b309ce\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+130                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+130-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\9b8d9e08d5c5504b0e15bdfae6b309ce\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+131                android:value="com.google.firebase.components.ComponentRegistrar" />
+131-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\9b8d9e08d5c5504b0e15bdfae6b309ce\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+132        </service>
+133
+134        <provider
+134-->[:flutter_email_sender] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\flutter_email_sender\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+135            android:name="com.sidlatau.flutteremailsender.FlutterEmailSenderFileProvider"
+135-->[:flutter_email_sender] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\flutter_email_sender\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-90
+136            android:authorities="com.example.pocketprayer2.file_provider"
+136-->[:flutter_email_sender] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\flutter_email_sender\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-65
+137            android:exported="false"
+137-->[:flutter_email_sender] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\flutter_email_sender\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+138            android:grantUriPermissions="true" >
+138-->[:flutter_email_sender] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\flutter_email_sender\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+139            <meta-data
+139-->[:flutter_email_sender] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\flutter_email_sender\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:61
+140                android:name="android.support.FILE_PROVIDER_PATHS"
+140-->[:flutter_email_sender] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\flutter_email_sender\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+141                android:resource="@xml/shared_file_paths" />
+141-->[:flutter_email_sender] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\flutter_email_sender\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-58
+142        </provider>
+143        <provider
+143-->[:flutter_share_me] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\flutter_share_me\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-18:20
+144            android:name="zhuoyuan.li.fluttershareme.util.ShareFileProvider"
+144-->[:flutter_share_me] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\flutter_share_me\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-77
+145            android:authorities="com.example.pocketprayer2.provider"
+145-->[:flutter_share_me] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\flutter_share_me\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-60
+146            android:exported="false"
+146-->[:flutter_share_me] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\flutter_share_me\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
+147            android:grantUriPermissions="true" >
+147-->[:flutter_share_me] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\flutter_share_me\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-47
+148            <meta-data
+148-->[:flutter_email_sender] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\flutter_email_sender\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:61
+149                android:name="android.support.FILE_PROVIDER_PATHS"
+149-->[:flutter_email_sender] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\flutter_email_sender\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+150                android:resource="@xml/file_paths" />
+150-->[:flutter_email_sender] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\flutter_email_sender\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-58
+151        </provider>
+152        <provider
+152-->[:share] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+153            android:name="io.flutter.plugins.share.ShareFileProvider"
+153-->[:share] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-70
+154            android:authorities="com.example.pocketprayer2.flutter.share_provider"
+154-->[:share] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+155            android:exported="false"
+155-->[:share] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+156            android:grantUriPermissions="true" >
+156-->[:share] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+157            <meta-data
+157-->[:flutter_email_sender] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\flutter_email_sender\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:61
+158                android:name="android.support.FILE_PROVIDER_PATHS"
+158-->[:flutter_email_sender] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\flutter_email_sender\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+159                android:resource="@xml/flutter_share_file_paths" />
+159-->[:flutter_email_sender] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\flutter_email_sender\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-58
+160        </provider>
+161
+162        <activity
+162-->[:url_launcher] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+163            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+163-->[:url_launcher] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+164            android:exported="false"
+164-->[:url_launcher] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+165            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+165-->[:url_launcher] C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+166        <activity
+166-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\7c9f9933b48029ae799d4f90b2c5e58c\jetified-facebook-common-5.15.3\AndroidManifest.xml:30:9-33:66
+167            android:name="com.facebook.FacebookActivity"
+167-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\7c9f9933b48029ae799d4f90b2c5e58c\jetified-facebook-common-5.15.3\AndroidManifest.xml:31:13-57
+168            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+168-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\7c9f9933b48029ae799d4f90b2c5e58c\jetified-facebook-common-5.15.3\AndroidManifest.xml:32:13-96
+169            android:theme="@style/com_facebook_activity_theme" />
+169-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\7c9f9933b48029ae799d4f90b2c5e58c\jetified-facebook-common-5.15.3\AndroidManifest.xml:33:13-63
+170        <activity android:name="com.facebook.CustomTabMainActivity" />
+170-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\7c9f9933b48029ae799d4f90b2c5e58c\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:9-71
+170-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\7c9f9933b48029ae799d4f90b2c5e58c\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:19-68
+171        <activity
+171-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\7c9f9933b48029ae799d4f90b2c5e58c\jetified-facebook-common-5.15.3\AndroidManifest.xml:35:9-49:20
+172            android:name="com.facebook.CustomTabActivity"
+172-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\7c9f9933b48029ae799d4f90b2c5e58c\jetified-facebook-common-5.15.3\AndroidManifest.xml:36:13-58
+173            android:exported="true" >
+173-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\7c9f9933b48029ae799d4f90b2c5e58c\jetified-facebook-common-5.15.3\AndroidManifest.xml:37:13-36
+174            <intent-filter>
+174-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\7c9f9933b48029ae799d4f90b2c5e58c\jetified-facebook-common-5.15.3\AndroidManifest.xml:39:13-48:29
+175                <action android:name="android.intent.action.VIEW" />
+175-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:41:17-69
+175-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:41:25-66
+176
+177                <category android:name="android.intent.category.DEFAULT" />
+177-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:42:17-76
+177-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:42:27-73
+178                <category android:name="android.intent.category.BROWSABLE" />
+178-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:43:17-78
+178-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:43:27-75
+179
+180                <data
+180-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:44:17-46:50
+181                    android:host="cct.com.example.pocketprayer2"
+181-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:46:21-47
+182                    android:scheme="fbconnect" />
+182-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:45:21-46
+183            </intent-filter>
+184        </activity>
+185        <activity
+185-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:27:9-44:20
+186            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+186-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:28:13-80
+187            android:excludeFromRecents="true"
+187-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:29:13-46
+188            android:exported="true"
+188-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:30:13-36
+189            android:launchMode="singleTask"
+189-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:31:13-44
+190            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+190-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:32:13-72
+191            <intent-filter>
+191-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:33:13-43:29
+192                <action android:name="android.intent.action.VIEW" />
+192-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:41:17-69
+192-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:41:25-66
+193
+194                <category android:name="android.intent.category.DEFAULT" />
+194-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:42:17-76
+194-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:42:27-73
+195                <category android:name="android.intent.category.BROWSABLE" />
+195-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:43:17-78
+195-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:43:27-75
+196
+197                <data
+197-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:44:17-46:50
+198                    android:host="firebase.auth"
+198-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:46:21-47
+199                    android:path="/"
+200                    android:scheme="genericidp" />
+200-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:45:21-46
+201            </intent-filter>
+202        </activity>
+203        <activity
+203-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:45:9-62:20
+204            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+204-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:46:13-79
+205            android:excludeFromRecents="true"
+205-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:47:13-46
+206            android:exported="true"
+206-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:48:13-36
+207            android:launchMode="singleTask"
+207-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:49:13-44
+208            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+208-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:50:13-72
+209            <intent-filter>
+209-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:51:13-61:29
+210                <action android:name="android.intent.action.VIEW" />
+210-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:41:17-69
+210-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:41:25-66
+211
+212                <category android:name="android.intent.category.DEFAULT" />
+212-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:42:17-76
+212-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:42:27-73
+213                <category android:name="android.intent.category.BROWSABLE" />
+213-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:43:17-78
+213-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:43:27-75
+214
+215                <data
+215-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:44:17-46:50
+216                    android:host="firebase.auth"
+216-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:46:21-47
+217                    android:path="/"
+218                    android:scheme="recaptcha" />
+218-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:45:21-46
+219            </intent-filter>
+220        </activity>
+221
+222        <service
+222-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:64:9-73:19
+223            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+223-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:65:13-101
+224            android:enabled="true"
+224-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:66:13-35
+225            android:exported="false" >
+225-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:67:13-37
+226            <intent-filter>
+226-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:68:13-72:29
+227                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+227-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:69:17-89
+227-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\f532d97a39b5ce72ce00756ef1928e57\jetified-firebase-auth-20.0.1\AndroidManifest.xml:69:25-86
+228
+229                <category android:name="android.intent.category.DEFAULT" />
+229-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:42:17-76
+229-->C:\Users\Zain\Desktop\pocket prayer newer\AAAAAAAA\PocketPrayer-master\android\app\src\main\AndroidManifest.xml:42:27-73
+230            </intent-filter>
+231        </service>
+232
+233        <activity
+233-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\8f19d27a261e75bcbd60baf513492e5e\jetified-tweet-ui-3.1.1\AndroidManifest.xml:28:9-31:49
+234            android:name="com.twitter.sdk.android.tweetui.PlayerActivity"
+234-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\8f19d27a261e75bcbd60baf513492e5e\jetified-tweet-ui-3.1.1\AndroidManifest.xml:29:13-74
+235            android:configChanges="keyboardHidden|orientation|screenSize"
+235-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\8f19d27a261e75bcbd60baf513492e5e\jetified-tweet-ui-3.1.1\AndroidManifest.xml:30:13-74
+236            android:theme="@style/MediaTheme" />
+236-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\8f19d27a261e75bcbd60baf513492e5e\jetified-tweet-ui-3.1.1\AndroidManifest.xml:31:13-46
+237        <activity
+237-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\8f19d27a261e75bcbd60baf513492e5e\jetified-tweet-ui-3.1.1\AndroidManifest.xml:32:9-34:49
+238            android:name="com.twitter.sdk.android.tweetui.GalleryActivity"
+238-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\8f19d27a261e75bcbd60baf513492e5e\jetified-tweet-ui-3.1.1\AndroidManifest.xml:33:13-75
+239            android:theme="@style/MediaTheme" />
+239-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\8f19d27a261e75bcbd60baf513492e5e\jetified-tweet-ui-3.1.1\AndroidManifest.xml:34:13-46
+240        <activity
+240-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\78fa0e98fb47cbd718f3ee3067708a0f\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+241            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+241-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\78fa0e98fb47cbd718f3ee3067708a0f\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+242            android:exported="false"
+242-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\78fa0e98fb47cbd718f3ee3067708a0f\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+243            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+243-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\78fa0e98fb47cbd718f3ee3067708a0f\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+244
+245        <provider
+245-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\9b8d9e08d5c5504b0e15bdfae6b309ce\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+246            android:name="com.google.firebase.provider.FirebaseInitProvider"
+246-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\9b8d9e08d5c5504b0e15bdfae6b309ce\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+247            android:authorities="com.example.pocketprayer2.firebaseinitprovider"
+247-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\9b8d9e08d5c5504b0e15bdfae6b309ce\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+248            android:directBootAware="true"
+248-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\9b8d9e08d5c5504b0e15bdfae6b309ce\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+249            android:exported="false"
+249-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\9b8d9e08d5c5504b0e15bdfae6b309ce\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+250            android:initOrder="100" />
+250-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\9b8d9e08d5c5504b0e15bdfae6b309ce\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+251
+252        <meta-data
+252-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\de9726a75ff0a0c6190d3c5925175323\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+253            android:name="com.google.android.gms.version"
+253-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\de9726a75ff0a0c6190d3c5925175323\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+254            android:value="@integer/google_play_services_version" />
+254-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\de9726a75ff0a0c6190d3c5925175323\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+255
+256        <provider
+256-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:31:9-37:35
+257            android:name="androidx.work.impl.WorkManagerInitializer"
+257-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:32:13-69
+258            android:authorities="com.example.pocketprayer2.workmanager-init"
+258-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:33:13-68
+259            android:directBootAware="false"
+259-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:34:13-44
+260            android:exported="false"
+260-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:35:13-37
+261            android:multiprocess="true" />
+261-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:36:13-40
+262
+263        <service
+263-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:39:9-44:35
+264            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+264-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:40:13-88
+265            android:directBootAware="false"
+265-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:41:13-44
+266            android:enabled="@bool/enable_system_alarm_service_default"
+266-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:42:13-72
+267            android:exported="false" />
+267-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:43:13-37
+268        <service
+268-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:45:9-51:35
+269            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+269-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:46:13-84
+270            android:directBootAware="false"
+270-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:47:13-44
+271            android:enabled="@bool/enable_system_job_service_default"
+271-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:48:13-70
+272            android:exported="true"
+272-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:49:13-36
+273            android:permission="android.permission.BIND_JOB_SERVICE" />
+273-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:50:13-69
+274        <service
+274-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:52:9-57:35
+275            android:name="androidx.work.impl.foreground.SystemForegroundService"
+275-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:53:13-81
+276            android:directBootAware="false"
+276-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:54:13-44
+277            android:enabled="@bool/enable_system_foreground_service_default"
+277-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:55:13-77
+278            android:exported="false" />
+278-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:56:13-37
+279
+280        <receiver
+280-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:59:9-64:35
+281            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+281-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:60:13-88
+282            android:directBootAware="false"
+282-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:61:13-44
+283            android:enabled="true"
+283-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:62:13-35
+284            android:exported="false" />
+284-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:63:13-37
+285        <receiver
+285-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:65:9-75:20
+286            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+286-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:66:13-106
+287            android:directBootAware="false"
+287-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:67:13-44
+288            android:enabled="false"
+288-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:68:13-36
+289            android:exported="false" >
+289-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:69:13-37
+290            <intent-filter>
+290-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:71:13-74:29
+291                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+291-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:72:17-87
+291-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:72:25-84
+292                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+292-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:73:17-90
+292-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:73:25-87
+293            </intent-filter>
+294        </receiver>
+295        <receiver
+295-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:76:9-86:20
+296            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+296-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:77:13-104
+297            android:directBootAware="false"
+297-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:78:13-44
+298            android:enabled="false"
+298-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:79:13-36
+299            android:exported="false" >
+299-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:80:13-37
+300            <intent-filter>
+300-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:82:13-85:29
+301                <action android:name="android.intent.action.BATTERY_OKAY" />
+301-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:83:17-77
+301-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:83:25-74
+302                <action android:name="android.intent.action.BATTERY_LOW" />
+302-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:84:17-76
+302-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:84:25-73
+303            </intent-filter>
+304        </receiver>
+305        <receiver
+305-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:87:9-97:20
+306            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+306-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:88:13-104
+307            android:directBootAware="false"
+307-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:89:13-44
+308            android:enabled="false"
+308-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:90:13-36
+309            android:exported="false" >
+309-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:91:13-37
+310            <intent-filter>
+310-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:93:13-96:29
+311                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+311-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:94:17-83
+311-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:94:25-80
+312                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+312-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:95:17-82
+312-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:95:25-79
+313            </intent-filter>
+314        </receiver>
+315        <receiver
+315-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:98:9-107:20
+316            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+316-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:99:13-103
+317            android:directBootAware="false"
+317-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:100:13-44
+318            android:enabled="false"
+318-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:101:13-36
+319            android:exported="false" >
+319-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:102:13-37
+320            <intent-filter>
+320-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:104:13-106:29
+321                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+321-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:105:17-79
+321-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:105:25-76
+322            </intent-filter>
+323        </receiver>
+324        <receiver
+324-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:108:9-119:20
+325            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+325-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:109:13-88
+326            android:directBootAware="false"
+326-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:110:13-44
+327            android:enabled="false"
+327-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:111:13-36
+328            android:exported="false" >
+328-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:112:13-37
+329            <intent-filter>
+329-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:114:13-118:29
+330                <action android:name="android.intent.action.BOOT_COMPLETED" />
+330-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:115:17-79
+330-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:115:25-76
+331                <action android:name="android.intent.action.TIME_SET" />
+331-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:116:17-73
+331-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:116:25-70
+332                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+332-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:117:17-81
+332-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:117:25-78
+333            </intent-filter>
+334        </receiver>
+335        <receiver
+335-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:120:9-129:20
+336            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+336-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:121:13-99
+337            android:directBootAware="false"
+337-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:122:13-44
+338            android:enabled="@bool/enable_system_alarm_service_default"
+338-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:123:13-72
+339            android:exported="false" >
+339-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:124:13-37
+340            <intent-filter>
+340-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:126:13-128:29
+341                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+341-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:127:17-98
+341-->[androidx.work:work-runtime:2.3.4] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\4a3a01481ef05644b61d3349eb86bde9\work-runtime-2.3.4\AndroidManifest.xml:127:25-95
+342            </intent-filter>
+343        </receiver>
+344        <!--
+345         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+346         with the application context. This config is merged in with the host app's manifest,
+347         but there can only be one provider with the same authority activated at any given
+348         point; so if the end user has two or more different apps that use Facebook SDK, only the
+349         first one will be able to use the provider. To work around this problem, we use the
+350         following placeholder in the authority to identify each host application as if it was
+351         a completely different provider.
+352        -->
+353        <provider
+353-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\17d3e9d5fe3eace2c191a7475cf605a9\jetified-facebook-core-5.15.3\AndroidManifest.xml:39:9-42:40
+354            android:name="com.facebook.internal.FacebookInitProvider"
+354-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\17d3e9d5fe3eace2c191a7475cf605a9\jetified-facebook-core-5.15.3\AndroidManifest.xml:40:13-70
+355            android:authorities="com.example.pocketprayer2.FacebookInitProvider"
+355-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\17d3e9d5fe3eace2c191a7475cf605a9\jetified-facebook-core-5.15.3\AndroidManifest.xml:41:13-72
+356            android:exported="false" />
+356-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\17d3e9d5fe3eace2c191a7475cf605a9\jetified-facebook-core-5.15.3\AndroidManifest.xml:42:13-37
+357
+358        <receiver
+358-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\17d3e9d5fe3eace2c191a7475cf605a9\jetified-facebook-core-5.15.3\AndroidManifest.xml:44:9-50:20
+359            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+359-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\17d3e9d5fe3eace2c191a7475cf605a9\jetified-facebook-core-5.15.3\AndroidManifest.xml:45:13-86
+360            android:exported="false" >
+360-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\17d3e9d5fe3eace2c191a7475cf605a9\jetified-facebook-core-5.15.3\AndroidManifest.xml:46:13-37
+361            <intent-filter>
+361-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\17d3e9d5fe3eace2c191a7475cf605a9\jetified-facebook-core-5.15.3\AndroidManifest.xml:47:13-49:29
+362                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+362-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\17d3e9d5fe3eace2c191a7475cf605a9\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:17-95
+362-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\17d3e9d5fe3eace2c191a7475cf605a9\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:25-92
+363            </intent-filter>
+364        </receiver>
+365
+366        <service
+366-->[androidx.room:room-runtime:2.2.3] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\2d0f611a0d161242021ec0bacbbe7808\room-runtime-2.2.3\AndroidManifest.xml:25:9-27:40
+367            android:name="androidx.room.MultiInstanceInvalidationService"
+367-->[androidx.room:room-runtime:2.2.3] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\2d0f611a0d161242021ec0bacbbe7808\room-runtime-2.2.3\AndroidManifest.xml:26:13-74
+368            android:exported="false" />
+368-->[androidx.room:room-runtime:2.2.3] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\2d0f611a0d161242021ec0bacbbe7808\room-runtime-2.2.3\AndroidManifest.xml:27:13-37
+369
+370        <activity
+370-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\b4337b3f7b495c54cba9199ae2f8c20e\tweet-composer-3.1.1\AndroidManifest.xml:28:9-31:71
+371            android:name="com.twitter.sdk.android.tweetcomposer.ComposerActivity"
+371-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\b4337b3f7b495c54cba9199ae2f8c20e\tweet-composer-3.1.1\AndroidManifest.xml:29:13-82
+372            android:exported="false"
+372-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\b4337b3f7b495c54cba9199ae2f8c20e\tweet-composer-3.1.1\AndroidManifest.xml:30:13-37
+373            android:windowSoftInputMode="adjustResize|stateVisible" />
+373-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\b4337b3f7b495c54cba9199ae2f8c20e\tweet-composer-3.1.1\AndroidManifest.xml:31:13-68
+374
+375        <service
+375-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\b4337b3f7b495c54cba9199ae2f8c20e\tweet-composer-3.1.1\AndroidManifest.xml:33:9-36:40
+376            android:name="com.twitter.sdk.android.tweetcomposer.TweetUploadService"
+376-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\b4337b3f7b495c54cba9199ae2f8c20e\tweet-composer-3.1.1\AndroidManifest.xml:34:13-84
+377            android:enabled="true"
+377-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\b4337b3f7b495c54cba9199ae2f8c20e\tweet-composer-3.1.1\AndroidManifest.xml:35:13-35
+378            android:exported="false" />
+378-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\b4337b3f7b495c54cba9199ae2f8c20e\tweet-composer-3.1.1\AndroidManifest.xml:36:13-37
+379
+380        <activity
+380-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\8ba2b8b2aca5de5ce8b0e59c2cbea920\twitter-core-3.1.1\AndroidManifest.xml:28:9-32:40
+381            android:name="com.twitter.sdk.android.core.identity.OAuthActivity"
+381-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\8ba2b8b2aca5de5ce8b0e59c2cbea920\twitter-core-3.1.1\AndroidManifest.xml:29:13-79
+382            android:configChanges="orientation|screenSize"
+382-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\8ba2b8b2aca5de5ce8b0e59c2cbea920\twitter-core-3.1.1\AndroidManifest.xml:30:13-59
+383            android:excludeFromRecents="true"
+383-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\8ba2b8b2aca5de5ce8b0e59c2cbea920\twitter-core-3.1.1\AndroidManifest.xml:31:13-46
+384            android:exported="false" />
+384-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\Zain\.gradle\caches\transforms-2\files-2.1\8ba2b8b2aca5de5ce8b0e59c2cbea920\twitter-core-3.1.1\AndroidManifest.xml:32:13-37
+385    </application>
+386
+387</manifest>

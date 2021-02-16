@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "806461523431",
+    "firebase_url": "https://prayerpool-c76e1.firebaseio.com",
+    "project_id": "prayerpool-c76e1",
+    "storage_bucket": "prayerpool-c76e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806461523431:android:c938773bda7ae135c66942",
+        "android_client_info": {
+          "package_name": "com.example.pocketprayer2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806461523431-efg7j1c3di0vko36od81d3s03jeoekvv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfrx-hG-cVXpeTzayFjRVJ5RYRtJE_WW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806461523431-efg7j1c3di0vko36od81d3s03jeoekvv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806461523431:android:7a2d381b259761e6c66942",
+        "android_client_info": {
+          "package_name": "com.example.testing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806461523431-efg7j1c3di0vko36od81d3s03jeoekvv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfrx-hG-cVXpeTzayFjRVJ5RYRtJE_WW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806461523431-efg7j1c3di0vko36od81d3s03jeoekvv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

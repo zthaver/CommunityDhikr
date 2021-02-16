@@ -1,0 +1,39 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Zain\\Desktop\\pocket prayer newer\\AAAAAAAA\\PocketPrayer-master\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Zain\\.gradle\\caches\\transforms-2\\files-2.1\\8f19d27a261e75bcbd60baf513492e5e\\jetified-tweet-ui-3.1.1\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "315"
+                    },
+                    "to": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "1081",
+                        "endLines": "22",
+                        "endColumns": "12",
+                        "endOffsets": "1341"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Zain\\.gradle\\caches\\transforms-2\\files-2.1\\b4337b3f7b495c54cba9199ae2f8c20e\\tweet-composer-3.1.1\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,565",
+                        "endLines": "9,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "560,1076"
+                    }
+                }
+            ]
+        }
+    ]
+}
